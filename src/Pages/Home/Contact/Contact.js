@@ -25,7 +25,7 @@ const Contact = () => {
       comment,
       email,
     };
-    fetch("http://localhost:5000/message", {
+    fetch("https://portfolio-of-afjol-server.vercel.app/message", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -44,7 +44,7 @@ const Contact = () => {
   return (
     <div className="mt-16">
       <p className="text-center text-3xl">Contact Me</p>
-      <div className="grid md:grid-cols-2 sm:grid-cols-1 mt-10 justify-center ">
+      <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1 mt-10 justify-center ">
         <div>
           <form
             onSubmit={handleReview}
@@ -78,7 +78,7 @@ const Contact = () => {
             />
           </form>
         </div>
-        <div className="grid md:grid-cols-2 sm:mt-10 mx-auto">
+        <div className="grid md:grid-cols-2 mx-auto mt-10 ">
           <div className="flex gap-x-4">
             <ion-icon
               style={{ fontSize: "50px" }}
