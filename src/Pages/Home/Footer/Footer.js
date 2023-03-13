@@ -5,13 +5,13 @@ const Footer = () => {
   return (
     <div className="mt-16 shadow-red-200 py-10 w-11/12 mx-auto shadow-md mb-10">
       <div className="grid md:grid-cols-4 sm:grid-cols-1 mx-auto text-center mt-10 leading-7">
-        <div className="text-start mx-auto">
+        <div className="text-start md:mx-auto ml-12">
           <p className="text-[#D7A123]">AFJOL HOSSAIN</p>
           <p className="hover:text-[#D7A123] duration-300">
             MEARN-Stack-Developer
           </p>
         </div>
-        <div className="text-start mx-auto">
+        <div className="text-start md:mx-auto ml-12">
           <p className="text-[#D7A123]">LINKS</p>
           <Link to="skills">
             <p className="hover:text-[#D7A123] duration-300">Skills</p>
@@ -26,14 +26,14 @@ const Footer = () => {
             <p className="hover:text-[#D7A123] duration-300">Contact</p>
           </Link>
         </div>
-        <div className="text-start mx-auto">
+        <div className="text-start md:mx-auto ml-12">
           <p className="text-[#D7A123]">DEVELOPERS</p>
           <p className="hover:text-[#D7A123] duration-300">Privacy</p>
           <p className="hover:text-[#D7A123] duration-300">Terms of Service</p>
         </div>
-        <div className="mx-auto text-start">
+        <div className="text-start md:mx-auto ml-12">
           <p className="text-[#D7A123]">SOCIAL MEDIA</p>
-          <div className="flex gap-4 items-center justify-center text-3xl">
+          <div className="flex gap-4 items-center items-start justify-center text-3xl">
             <a
               href="https://www.facebook.com/afjol.hossain.39"
               type="button"

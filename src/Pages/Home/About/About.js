@@ -16,7 +16,7 @@ const About = () => {
         </div>
         <div
           data-aos="fade-left"
-          className="leading-7 flex flex-col p-6 items-start justify-center sm:px-6  mx-auto sm:mt-10"
+          className="leading-7 flex flex-col p-6 items-start justify-center sm:px-6  md:mx-auto sm:mt-10 sm:px-10"
         >
           <p className="text-5xl ">
             Hello There, <br /> I'm

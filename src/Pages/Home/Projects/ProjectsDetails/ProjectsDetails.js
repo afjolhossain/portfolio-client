@@ -6,7 +6,7 @@ const ProjectsDetails = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    const url = `https://portfolio-of-afjol-server.vercel.app/projects/${id}`;
+    const url = `http://localhost:5000/projects/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setDetails(data));
